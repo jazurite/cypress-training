@@ -1,0 +1,7 @@
+{
+  "login": "/Account/v1/Login",
+  "authorized": "/Account/v1/Authorized",
+  "getProfile": "/Account/v1/User/",
+
+  "books": "/BookStore/v1/Books"
+}

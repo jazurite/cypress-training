@@ -20,3 +20,8 @@ import './commands'
 // require('./commands')
 require('@cypress/xpath');
 import 'cypress-mochawesome-reporter/register';
+
+after(() => {
+    //custom task to generate report
+    cy.task("generateReport");
+});

@@ -2,10 +2,10 @@
   "name": "QC_Training",
   "version": "1.0.0",
   "scripts": {
-    "dev": "cypress open",
     "test-headless": "cypress run --headless --browser chrome --spec cypress/e2e/**",
     "test-headless2": "cypress run --browser=chrome"
   },
+  "resolvePackageJsonExports": true,
   "devDependencies": {
     "@badeball/cypress-cucumber-preprocessor": "^20.0.2",
     "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
@@ -13,6 +13,7 @@
     "ajv": "^8.12.0",
     "csv-parser": "^3.0.0",
     "cypress": "*",
+    "cypress-image-diff-js": "^2.1.4",
     "cypress-mochawesome-reporter": "^3.8.2",
     "esbuild": "^0.20.1",
     "mochawesome": "^7.1.3",
