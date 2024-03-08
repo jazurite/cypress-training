@@ -1,6 +1,7 @@
 import { defineConfig } from 'cypress'
 
 export default defineConfig({
+  projectId: "qunw4a",
   reporter: 'cypress-mochawesome-reporter',
   video: true,
   reporterOptions: {
@@ -13,5 +14,5 @@ export default defineConfig({
       // implement node event listeners here
     },
     baseUrl: "https://demoqa.com"
-  },
+  }
 })

@@ -19,5 +19,11 @@ describe("Login test", ()=> {
         cy.get(LoginPage.loginBtn).click()
 
         cy.screenshot()
+
+        cy.get(LoginPage.userForm).then(($el) => {
+            $el.each(el => {
+
+            })
+        })
     })
 })
